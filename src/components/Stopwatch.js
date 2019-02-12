@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types'
+
 
 class Stopwatch extends Component {
 
@@ -61,5 +63,6 @@ class Stopwatch extends Component {
         )
     }
 }
+  
 
 export default Stopwatch;
